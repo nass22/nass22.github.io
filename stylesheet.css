@@ -1,0 +1,113 @@
+/*Reset des marges des tous les éléments de la page*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 10px;  
+}
+
+nav ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    font-family:monospace;
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover{
+    border-bottom: 2px solid rgb(55, 5, 146);
+}
+
+
+.white{
+    background-color: white;
+    height: 600px;
+    width: auto;
+}
+
+.black{
+    background-color: black;
+    height: 400px;
+    width: auto;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    bottom: 50px;
+    padding-top: 200px;
+    
+}
+
+h2{
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.centerText{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:500;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.logo{
+    height: 70px;
+    padding-left: 10px;
+    
+}
+
+#sectionLogo{
+    margin-top: 50px;
+    margin-right: 18px;
+    text-align: center;
+}
+.about{
+    width: 600px;
+    padding-top: 100px;
+    margin-left: 250px;
+}
+
+.textAbout{
+    color:white;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+span{
+    color:rgb(72, 70, 202)
+}
