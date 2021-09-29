@@ -195,9 +195,10 @@ em{
 blockquote{
     color: white;
     padding-top:20px;
-    width: 400px;
+    width: 600px;
     margin: auto;
     font-size: 20px;
+    text-align: justify;
 }
 
 
@@ -261,6 +262,11 @@ blockquote{
     }
     .black{
         width: 100%;
+    }
+
+    blockquote{
+        width: auto;
+        text-align: center;
     }
    
 }
