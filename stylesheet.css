@@ -4,9 +4,14 @@
     padding:0px;
 }
 
+
+
 body{
     width: auto;
+    background-color: white;
 }
+
+/* MENU */
 
 nav{
     width: 50%;
@@ -42,6 +47,7 @@ nav a:hover{
     border-bottom: 2px solid rgb(55, 5, 146);
 }
 
+/* BACKGROUND */
 
 .white{
     background-color: white;
@@ -55,6 +61,8 @@ nav a:hover{
     height: 400px;
     width: auto; 
 }
+
+/* INDEX PAGE */
 
 h1{
     text-align: center;
@@ -106,8 +114,96 @@ h2{
 }
 
 span{
-    color:rgb(72, 70, 202)
+    color:rgb(72, 70, 202);
 }
+
+/* CONTACT PAGE */
+
+.contactContent{
+    background-color: rgb(240, 240, 240);
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+legend{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form{
+    
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.contactContent h3{
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+
+input{
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+
+textarea{
+    width: 300px;
+    padding:5px;
+    height: 100px;
+}
+
+input[type=submit]{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(72, 70, 202);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px dimgrey;
+}
+
+input[type=submit]:hover{
+    text-decoration: underline;
+}
+
+em{
+    color: red;
+}
+
+.required{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+blockquote{
+    color: white;
+    padding-top:20px;
+    width: 400px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+
+
+/* MEDIA QUERIES */
 
 @media all and (max-width: 1024px){
     nav
@@ -136,6 +232,37 @@ span{
     h2{
         font-size:15px;
     }
+
+
+    /* ------- */
+
+
+    .contactContent{
+        width: auto;
+        margin:auto;
+        margin-top: 50px;
+    }
+    
+    input, textarea{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+
+    input[type=text]{
+        width: auto;
+    }
+
+    input[type=submit]{
+        width: auto;
+        margin:auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .black{
+        width: 100%;
+    }
+   
 }
 
 @media all and (min-width: 768px){
@@ -144,3 +271,4 @@ span{
         margin:auto;
     }
 }
+
